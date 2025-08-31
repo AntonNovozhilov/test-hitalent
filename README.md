@@ -35,6 +35,7 @@
 Скачайте скрипт
 ```
 git clone git@github.com:AntonNovozhilov/test-hitalent.git
+cd src
 ```
 Скопируйте переменные окружения(при необходимости измените данные):
 ```
@@ -42,6 +43,7 @@ cp .env.example .env
 ```
 Запустите всё одной командой:
 ```
+cd ..
 docker-compose up --build
 ```
 Откройте Swagger:
